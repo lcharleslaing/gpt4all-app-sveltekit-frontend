@@ -4,6 +4,7 @@
 
     let title = "";
     let isHomePage = false;
+    export let customTitle;
 
     function capitalizeFirstLetter(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
@@ -19,6 +20,9 @@
             routeName === "Big2Tiny Solutions"
                 ? routeName
                 : capitalizeFirstLetter(routeName);
+        if (customTitle) {
+            title = customTitle;
+        }
         document.title = title;
     });
 </script>
@@ -26,6 +30,6 @@
 <div class="text-center">
     <Big2TinyLogo />
     {#if !isHomePage}
-        <h1 class="text-4xl font-extrabold uppercase mt-4">{title}</h1>
+        <h2 class="text-2xl font-extrabold uppercase mt-4">{title}</h2>
     {/if}
 </div>
