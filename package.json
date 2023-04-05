@@ -21,6 +21,7 @@
   },
   "type": "module",
   "dependencies": {
-    "daisyui": "^2.51.5"
+    "daisyui": "^2.51.5",
+    "sveltekit-page-title-component": "^2.0.0"
   }
 }

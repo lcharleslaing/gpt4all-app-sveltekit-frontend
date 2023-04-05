@@ -1,5 +1,9 @@
 <script>
-    import PageTitle from "$lib/components/PageTitle.svelte";
+import PageTitle from "$lib/components/PageTitle.svelte";
 </script>
 
-<PageTitle customTitle="About US" />
+
+<!-- to set a custom title, use the commented version below -->
+<!-- <PageTitle customTitle="Your Custom Title" /> -->
+<PageTitle />
+  
