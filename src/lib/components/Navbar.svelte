@@ -44,7 +44,7 @@
         </ul>
     </div>
     <div class="navbar-end">
-        <a href="/" class="btn">Get started</a>
+        <a href="/auth/register" class="btn">Get started</a>
     </div>
 </div>
 <slot />
