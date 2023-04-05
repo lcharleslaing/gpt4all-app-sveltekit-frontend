@@ -24,5 +24,10 @@
             iconName="computer-chat"
             label="Gpt4All Chat"
         />
+        <NavbarIconLink
+            href="/apps/fof"
+            iconName="legal"
+            label="Friend of the Families"
+        />
     </ul>
 </li>
