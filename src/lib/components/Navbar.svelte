@@ -43,8 +43,8 @@
             <NavbarMenuLinks />
         </ul>
     </div>
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
         <a href="/auth/register" class="btn">Get started</a>
-    </div>
+    </div> -->
 </div>
 <slot />
