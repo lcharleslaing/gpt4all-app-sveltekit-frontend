@@ -15,5 +15,11 @@
         title="Gpt4All Chat"
         description="Open Source version of GPT-4 with a Web interface"
     />
+    <Card
+        href="/apps/fof"
+        iconName="legal"
+        title="Friend of the Families"
+        description="Helping One Family at a Time with a variety of resouces"
+    />
     <!-- Add more Card components here -->
 </div>
