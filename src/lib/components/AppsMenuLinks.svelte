@@ -6,7 +6,7 @@
 <li tabindex="0">
     <!-- svelte-ignore a11y-missing-attribute -->
     <a class="justify-between">
-        Apps
+        <NavbarIconLink href="/apps" iconName="apps" label="Apps" />
         <svg
             class="fill-current"
             xmlns="http://www.w3.org/2000/svg"

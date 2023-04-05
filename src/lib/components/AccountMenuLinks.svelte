@@ -7,7 +7,7 @@
 <li tabindex="1">
     <!-- svelte-ignore a11y-missing-attribute -->
     <a class="justify-between">
-        Account
+        <NavbarIconLink href="/auth" iconName="account" label="Account" />
         <svg
             class="fill-current"
             xmlns="http://www.w3.org/2000/svg"
