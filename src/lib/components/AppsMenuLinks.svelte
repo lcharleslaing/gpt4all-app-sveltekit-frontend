@@ -1,3 +1,7 @@
+<script>
+    import NavbarIconLink from "./NavbarIconLink.svelte";
+</script>
+
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <li tabindex="0">
     <!-- svelte-ignore a11y-missing-attribute -->
@@ -15,6 +19,10 @@
         >
     </a>
     <ul class="p-2 shadow bg-base-100 rounded-box">
-        <li><a href="/apps/gpt4all-ui">GPT4ALL Web Interface</a></li>
+        <NavbarIconLink
+            href="/apps/gpt4all-ui"
+            iconName="computer-chat"
+            label="Gpt4All Chat"
+        />
     </ul>
 </li>

@@ -1,3 +1,7 @@
+<script>
+    import NavbarIconLink from "./NavbarIconLink.svelte";
+</script>
+
 <!-- svelte-ignore a11y-positive-tabindex -->
 <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 <li tabindex="1">
@@ -16,9 +20,17 @@
         >
     </a>
     <ul class="p-2 shadow bg-base-100 rounded-box">
-        <li><a href="/auth/register">Register</a></li>
-        <li><a href="/auth/login">Login</a></li>
-        <li><a href="/auth/logout">Logout</a></li>
-        <li><a href="/auth/profile">Profile</a></li>
+        <NavbarIconLink
+            href="/auth/register"
+            iconName="register"
+            label="Register"
+        />
+        <NavbarIconLink href="/auth/login" iconName="login" label="Login" />
+        <NavbarIconLink href="/auth/logout" iconName="logout" label="Logout" />
+        <NavbarIconLink
+            href="/auth/profile"
+            iconName="profile"
+            label="Profile"
+        />
     </ul>
 </li>
